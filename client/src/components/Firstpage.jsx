@@ -31,7 +31,7 @@ const FrontendForm = () => {
         setVerificationResult('OTP matched successfully');
         window.location.href = '/welcome'; 
       } else {
-        alert('OTP verification failed');
+        alert('Invalid OTP entered');
       }
     } catch (error) {
       console.error('Error verifying OTP:', error);
